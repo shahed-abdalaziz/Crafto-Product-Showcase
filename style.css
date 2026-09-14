@@ -10,3 +10,48 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 /* End Navbar */
+/* Hero Section */
+.hero {
+    padding: 100px 0 50px 0;
+    position: relative;
+    overflow: hidden !important;
+    /* بيمنع السكرول الأفقي لما النص يخرج برا الشاشة */
+}
+.listening {
+    color: darkorchid;
+    z-index: 1 !important;
+    background: linear-gradient(45deg, #ff1e80 0%, #6000ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14rem !important;
+    line-height: 2 !important;
+    white-space: nowrap !important;
+    font-weight: 900;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+}
+.custom-img {
+    animation: scale 2s infinite ease-in-out;
+    z-index: 2 !important;
+    position: relative;
+    width: 500px !important;
+    max-width: 90vw !important;
+    height: auto;
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+/* End Hero Section */
