@@ -168,3 +168,24 @@
 }
 
 /* End Design Section */
+/* Reviews & Pricing */
+.review,
+.pricing {
+    padding: 60px 0;
+    background-color: #f7f8f9;
+}
+
+.shoko,
+.alexander,
+.herman {
+    color: #ff1e80;
+}
+
+.purchace {
+    background: linear-gradient(45deg, #ff1e80 0%, #6000ff 100%) !important;
+    color: white !important;
+    font-size: 1.2rem !important;
+    font-weight: 700;
+}
+
+/* End Review And Pricing */
