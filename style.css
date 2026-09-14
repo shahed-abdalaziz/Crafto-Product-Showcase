@@ -104,3 +104,67 @@
 }
 
 /* End Technology Section */
+/* Design Section */
+.design {
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative !important;
+}
+
+.original {
+    font-size: 2rem !important;
+    line-height: 1.2;
+    left: 45%;
+    bottom: 60%;
+    text-align: center;
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100%;
+    margin: 0 !important
+}
+
+.balls-slider-wrapper {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+}
+
+.balls-track {
+    display: flex;
+    width: max-content;
+    animation: scrollContinuous 18s linear infinite;
+}
+
+.balls-track:hover {
+    animation-play-state: paused;
+}
+
+.ball-item {
+    width: 140px;
+    flex-shrink: 0;
+    padding: 0 10px;
+}
+
+.ball-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@keyframes scrollContinuous {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* End Design Section */
