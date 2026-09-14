@@ -79,3 +79,28 @@
 }
 
 /* End Features Section */
+/* Technology Section */
+.technology {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-light {
+    z-index: 2 !important;
+    max-width: 100%;
+    transform: rotate(20deg);
+}
+
+.sound {
+    color: #ff1e80;
+    z-index: 1 !important;
+    font-size: 6rem !important;
+    pointer-events: none;
+    opacity: 0.8;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+
+}
+
+/* End Technology Section */
