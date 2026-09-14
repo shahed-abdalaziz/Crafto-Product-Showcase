@@ -207,3 +207,25 @@
 }
 
 /* End Footer Section */
+/* media */
+
+@media (max-width: 991px) {
+
+    .hero,
+    .technology,
+    .features,
+    .design {
+        height: auto !important;
+        text-align: center;
+    }
+
+    .listening {
+        font-size: 3.5rem !important;
+    }
+
+    .custom-img,
+    .img-light {
+        margin: 20px auto;
+        display: block;
+    }
+}
